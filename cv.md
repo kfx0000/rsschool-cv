@@ -1,32 +1,28 @@
 # Andrei Stupakou
----
 
 ## Contacts
 * **E-mail:** kfx0000@gmail.com
 * **Telegram:** @andySt
 * **Discord:** Andrei Stupakou#0876
 * **[GitHub](https://github.com/kfx0000)**
----
 
 ## Brief information about me
 
 I work as network lead engineer at not but I guess I reached limits in this job. So, I wish to change my specialization and learn JavaScript.
----
 
 ## Skills
 
-> As Developer
+As Developer
 * C/C++
 * HTML
 * CSS
 * JavaScript (Fundamentals)
 
-> As Engineer
+As Engineer
 * Networking (Cisco / HP)
 * Microcontrollers (AVR / STM32)
 * Hardware development (Altera)
 * VoIP (Asterisk / FreeSwitch)
----
 
 ## Code example
 
@@ -40,12 +36,10 @@ SOLUTION:
 ```
 const correct = string => string.replace(/0/g, 'O').replace(/1/g, 'I').replace(/5/g, 'S');
 ```
----
 
 ## Education
 * **Udemy**
     * [HTML/CSS](https://www.udemy.com/course/webdeveloper/)
----
 
 # Languages
 
