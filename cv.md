@@ -27,7 +27,7 @@ As Engineer
 ## Code example
 
 DESCRIPTION:
->Character recognition software is widely used to digitise printed texts. Thus the texts can be edited, searched and stored on a >computer. Correct the errors in the digitised text. You only have to handle the following mistakes:
+>Character recognition software is widely used to digitise printed texts. Thus the texts can be edited, searched and stored on a computer. Correct the errors in the digitised text. You only have to handle the following mistakes:
 >  - _S_ is misinterpreted as _5_
 >  - _O_ is misinterpreted as _0_
 >  - _I_ is misinterpreted as _1_
