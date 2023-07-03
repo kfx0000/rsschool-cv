@@ -1,5 +1,134 @@
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f0f0;
+}
+
+a {
+    color:#2c2522;
+    text-decoration: none;
+    transition: color 0.6s;
+}
+a:visited {
+    color:#2c2522;
+    text-decoration: none;
+}
+a:hover {
+    color: #bc0606;
+}
+
+.cv-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px 6px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    position: sticky;
+    top: 0;
+}
+
+.nav {
+    background-color:#d3a987;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item {
+    padding: 0 16px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 40px;
+    background-color:#b2a0a0;
+}
+
+.info-item {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color:#2c2522;
+}
+
+.info-pos {
+    font-style: italic;
+}
+
+.info-photo {
+    position: absolute;
+    top: 8px;
+    left: 40px;
+    width: 180px;
+    border-radius: 50%;
+    border: 6px solid white;
+}
+
+.section {
+    padding: 20px;
+    scroll-margin-top: 12rem;
+}
+
+.section-summary {
+    padding: 16px 10px;
+    line-height: 40px;
+}
+
+.section-subtitle {
+    padding: 16px 10px;
+    letter-spacing: 4px;
+}
+
+.section-code-desc {
+    padding: 16px 10px;
+    line-height: 40px;
+}
+
+.section-code {
+    padding: 20px 40px;
+    font-size: 16px;
+    background-color: rgb(219, 215, 215);
+}
+
+.section-items {
+    line-height: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    background-color:#d3a987;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: small;
+    width: 140px;
+    color:#2c2522;
 }
