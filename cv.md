@@ -6,19 +6,19 @@
 * **Discord:** Andrei Stupakou#0876
 * **[GitHub](https://github.com/kfx0000)**
 
-## Brief information about me
+## Brief information about myself
 
-I work as network lead engineer at not but I guess I reached limits in this job. So, I wish to change my specialization and learn JavaScript.
+I work as a lead network engineer. At now I guess I have reached my limits in this work. So, I want to change my major and learn JavaScript.
 
 ## Skills
 
-As Developer
+As a Developer
 * C/C++
 * HTML
 * CSS
 * JavaScript (Fundamentals)
 
-As Engineer
+As an Engineer
 * Networking (Cisco / HP)
 * Microcontrollers (AVR / STM32)
 * Hardware development (Altera)
@@ -27,21 +27,36 @@ As Engineer
 ## Code example
 
 DESCRIPTION:
->Character recognition software is widely used to digitise printed texts. Thus the texts can be edited, searched and stored on a computer. Correct the errors in the digitised text. You only have to handle the following mistakes:
->  - _S_ is misinterpreted as _5_
->  - _O_ is misinterpreted as _0_
->  - _I_ is misinterpreted as _1_
+>Implement function `check(str, bracketsConfig)`, that for given brackets sequence will return `true` if it is correct and `false` otherwise. <br>
+> In the second param there is `bracketsConfig` - the array of pairs open-closed brackets. Each subarray includes only 2 elements - opening and closing bracket
 
 SOLUTION:
-```
-const correct = string => string.replace(/0/g, 'O').replace(/1/g, 'I').replace(/5/g, 'S');
+```js
+function check(str, bracketsConfig) {
+  function removeInternal(arr) {
+    for (let count = 0; count <= arr.length; count++) {
+      for (let confPointer = 0; confPointer < bracketsConfig.length; confPointer++) {
+        if ((arr[count] === bracketsConfig[confPointer][0]) && (arr[count + 1] === bracketsConfig[confPointer][1])) {
+          arr.splice(count, 2);
+          removeInternal(arr);
+        }
+      }
+    }
+    if (arr.length === 0) return true; else return false;
+  }
+
+  return removeInternal(str.split(''));
+}
 ```
 
 ## Education
 * **Udemy**
     * [HTML/CSS](https://www.udemy.com/course/webdeveloper/)
+* **Rolling Scopes School**
+    * [RS School JS/FE Pre-School 2023Q2](https://app.rs.school/certificate/z7cns0m5)
 
 ## Languages
 
 * **Russian** - native
+* **Belarussian** - native
 * **English** - A2
