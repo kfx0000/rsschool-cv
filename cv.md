@@ -6,7 +6,7 @@
 * **Discord:** Andrei Stupakou#0876
 * **[GitHub](https://github.com/kfx0000)**
 
-## Brief information about me
+## Brief information about myself
 
 I work as a lead network engineer. At now I guess I have reached my limits in this work. So, I want to change my major and learn JavaScript.
 
