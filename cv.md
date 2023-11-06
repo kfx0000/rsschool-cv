@@ -36,7 +36,7 @@ function check(str, bracketsConfig) {
   function removeInternal(arr) {
     for (let count = 0; count <= arr.length; count++) {
       for (let confPointer = 0; confPointer < bracketsConfig.length; confPointer++) {
-        if ((arr[count] === bracketsConfig[confPointer][0]) && (arr[count+1] === bracketsConfig[confPointer][1])) {
+        if ((arr[count] === bracketsConfig[confPointer][0]) && (arr[count + 1] === bracketsConfig[confPointer][1])) {
           arr.splice(count, 2);
           removeInternal(arr);
         }
@@ -53,7 +53,7 @@ function check(str, bracketsConfig) {
 * **Udemy**
     * [HTML/CSS](https://www.udemy.com/course/webdeveloper/)
 * **Rolling Scopes School**
-    * [RS School JS/FE Pre-School 2023Q2](https://rs.school/js-stage0/)
+    * [RS School JS/FE Pre-School 2023Q2](https://app.rs.school/certificate/z7cns0m5)
 
 ## Languages
 
